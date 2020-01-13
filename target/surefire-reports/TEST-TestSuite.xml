@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="21.815" tests="2" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="23.65" tests="2" errors="0" skipped="0" failures="2">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="13.0.1+9"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-13.0.1\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Vishal\Desktop\Selenium_Project\DataDrivenFramework\DataDrivenFramework"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Vishal\git\mySeleniumProject\.git\DataDrivenFramework"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -15,7 +15,7 @@
     <property name="user.country" value="IN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\Vishal\Desktop\Selenium_Project\DataDrivenFramework\DataDrivenFramework"/>
+    <property name="user.dir" value="C:\Users\Vishal\git\mySeleniumProject\.git\DataDrivenFramework"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="java.runtime.version" value="13.0.1+9"/>
     <property name="os.arch" value="amd64"/>
@@ -24,7 +24,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\Vishal\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf14498353675159247475.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\Vishal\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5222433217417568873.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk-13.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk-13.0.1/bin/server;C:/Program Files/Java/jdk-13.0.1/bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-13.0.1\bin;C:\Users\Vishal\AppData\Local\Microsoft\WindowsApps;;C:\Users\Vishal\Desktop;;."/>
     <property name="jdk.debug" value="release"/>
@@ -47,7 +47,7 @@
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.version" value="13.0.1"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="C:\Users\Vishal\Desktop\Selenium_Project\DataDrivenFramework\DataDrivenFramework\EMBEDDED"/>
+    <property name="maven.home" value="C:\Users\Vishal\git\mySeleniumProject\.git\DataDrivenFramework\EMBEDDED"/>
     <property name="file.separator" value="\"/>
     <property name="java.version.date" value="2019-10-15"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
@@ -55,22 +55,22 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="loginAsBankManager" classname="com.w2a.testcases.BankManagerLoginTest" time="0.806">
+  <testcase name="loginAsBankManager" classname="com.w2a.testcases.BankManagerLoginTest" time="0.809">
     <failure message="Login Not Successful" type="java.lang.AssertionError">java.lang.AssertionError: Login Not Successful
 	at com.w2a.testcases.BankManagerLoginTest.loginAsBankManager(BankManagerLoginTest.java:24)
 </failure>
     <system-err><![CDATA[log4j:WARN No appenders could be found for logger (devpinoyLogger).
 log4j:WARN Please initialize the log4j system properly.
 log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
-Starting ChromeDriver 2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9) on port 34091
+Starting ChromeDriver 2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9) on port 1858
 Only local connections are allowed.
-[1578926491.399][WARNING]: Timed out connecting to Chrome, retrying...
-Jan 13, 2020 8:11:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1578934182.513][WARNING]: Timed out connecting to Chrome, retrying...
+Jan 13, 2020 10:19:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
-[1578926498.444][WARNING]: Timed out connecting to Chrome, retrying...
+[1578934188.055][WARNING]: Timed out connecting to Chrome, retrying...
 ]]></system-err>
   </testcase>
-  <testcase name="addCustomer" classname="com.w2a.testcases.AddCustomerTest" time="6.749">
+  <testcase name="addCustomer" classname="com.w2a.testcases.AddCustomerTest" time="6.859">
     <failure message="Add customer failed" type="java.lang.AssertionError">java.lang.AssertionError: Add customer failed
 	at com.w2a.testcases.AddCustomerTest.addCustomer(AddCustomerTest.java:33)
 </failure>
