@@ -1,4 +1,4 @@
-	package com.w2a.testcases;
+package com.w2a.testcases;
 
 import java.util.concurrent.TimeUnit;
 
@@ -16,10 +16,11 @@ public class BankManagerLoginTest extends TestBase{
 		
 
 		log.debug("Inside Login test");
-		driver.findElement(By.cssSelector(OR.getProperty("bmlBtn"))).click();
+		click("bmlBtn_XPATH");
+		//driver.findElement(By.cssSelector(OR.getProperty("bmlBtn"))).click();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		//Thread.sleep(5000);
-		Assert.assertTrue(isElementPresent(By.xpath(OR.getProperty("addCustBtn"))), "Login Not successful!!!");
+		Assert.assertTrue(isElementPresent(By.xpath(OR.getProperty("addCustBtn_XPATH"))), "Login Not successful!!!");
 		log.debug("Login successfully executed");
 		Assert.fail("Login Not Successful");
 		
