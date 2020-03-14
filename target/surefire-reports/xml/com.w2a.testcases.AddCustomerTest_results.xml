@@ -4,9 +4,9 @@
            failures="1"
            errors="0"
            skipped="0"
-           time="6.395">
+           time="6.517">
   <properties />
-            <testcase name="addCustomerTest" time="6.395" classname="com.w2a.testcases.AddCustomerTest">
+            <testcase name="addCustomerTest" time="6.517" classname="com.w2a.testcases.AddCustomerTest">
                 <failure type="java.lang.AssertionError"
                   message="Add customer failed"
               >

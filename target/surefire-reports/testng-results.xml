@@ -2,10 +2,22 @@
 <testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
   <reporter-output>
     <line>
+      <![CDATA[<br>Verification Failure : expected [abc] but found [xyz]<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=Sat_Mar_14_19_46_42_IST_2020.jpg><img src=Sat_Mar_14_19_46_42_IST_2020.jpg height=200 width=200></img></a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
       <![CDATA[Click to see Screenshot]]>
     </line>
     <line>
-      <![CDATA[<a target="_blank" href=Sat_Mar_14_17_41_33_IST_2020.jpg>Screenshot</a>]]>
+      <![CDATA[<a target="_blank" href=Sat_Mar_14_19_46_46_IST_2020.jpg>Screenshot</a>]]>
     </line>
     <line>
       <![CDATA[<br>]]>
@@ -14,13 +26,13 @@
       <![CDATA[<br>]]>
     </line>
     <line>
-      <![CDATA[<a target="_blank" href=Sat_Mar_14_17_41_33_IST_2020.jpg><img src=Sat_Mar_14_17_41_33_IST_2020.jpg height=200 width=200></img></a>]]>
+      <![CDATA[<a target="_blank" href=Sat_Mar_14_19_46_46_IST_2020.jpg><img src=Sat_Mar_14_19_46_46_IST_2020.jpg height=200 width=200></img></a>]]>
     </line>
     <line>
       <![CDATA[Click to see Screenshot]]>
     </line>
     <line>
-      <![CDATA[<a target="_blank" href=Sat_Mar_14_17_41_40_IST_2020.jpg>Screenshot</a>]]>
+      <![CDATA[<a target="_blank" href=Sat_Mar_14_19_46_53_IST_2020.jpg>Screenshot</a>]]>
     </line>
     <line>
       <![CDATA[<br>]]>
@@ -29,15 +41,15 @@
       <![CDATA[<br>]]>
     </line>
     <line>
-      <![CDATA[<a target="_blank" href=Sat_Mar_14_17_41_40_IST_2020.jpg><img src=Sat_Mar_14_17_41_40_IST_2020.jpg height=200 width=200></img></a>]]>
+      <![CDATA[<a target="_blank" href=Sat_Mar_14_19_46_53_IST_2020.jpg><img src=Sat_Mar_14_19_46_53_IST_2020.jpg height=200 width=200></img></a>]]>
     </line>
   </reporter-output>
-  <suite started-at="2020-03-14T12:11:33Z" name="Data Driven Basics" finished-at="2020-03-14T12:11:40Z" duration-ms="7660">
+  <suite started-at="2020-03-14T14:16:42Z" name="Data Driven Basics" finished-at="2020-03-14T14:16:53Z" duration-ms="11843">
     <groups>
     </groups>
-    <test started-at="2020-03-14T12:11:33Z" name="Bank Manager Login Test" finished-at="2020-03-14T12:11:33Z" duration-ms="878">
+    <test started-at="2020-03-14T14:16:42Z" name="Bank Manager Login Test" finished-at="2020-03-14T14:16:46Z" duration-ms="4830">
       <class name="com.w2a.testcases.BankManagerLoginTest">
-        <test-method signature="loginAsBankManager()[pri:0, instance:com.w2a.testcases.BankManagerLoginTest@1205bd62]" started-at="2020-03-14T12:11:33Z" name="loginAsBankManager" finished-at="2020-03-14T12:11:33Z" duration-ms="298" status="FAIL">
+        <test-method signature="loginAsBankManager()[pri:0, instance:com.w2a.testcases.BankManagerLoginTest@3081f72c]" started-at="2020-03-14T14:16:42Z" name="loginAsBankManager" finished-at="2020-03-14T14:16:46Z" duration-ms="3904" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Login Not Successful]]>
@@ -45,7 +57,7 @@
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: Login Not Successful
 at org.testng.Assert.fail(Assert.java:96)
-at com.w2a.testcases.BankManagerLoginTest.loginAsBankManager(BankManagerLoginTest.java:25)
+at com.w2a.testcases.BankManagerLoginTest.loginAsBankManager(BankManagerLoginTest.java:27)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -79,10 +91,22 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
             <line>
+              <![CDATA[<br>Verification Failure : expected [abc] but found [xyz]<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href=Sat_Mar_14_19_46_42_IST_2020.jpg><img src=Sat_Mar_14_19_46_42_IST_2020.jpg height=200 width=200></img></a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
               <![CDATA[Click to see Screenshot]]>
             </line>
             <line>
-              <![CDATA[<a target="_blank" href=Sat_Mar_14_17_41_33_IST_2020.jpg>Screenshot</a>]]>
+              <![CDATA[<a target="_blank" href=Sat_Mar_14_19_46_46_IST_2020.jpg>Screenshot</a>]]>
             </line>
             <line>
               <![CDATA[<br>]]>
@@ -91,19 +115,19 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
               <![CDATA[<br>]]>
             </line>
             <line>
-              <![CDATA[<a target="_blank" href=Sat_Mar_14_17_41_33_IST_2020.jpg><img src=Sat_Mar_14_17_41_33_IST_2020.jpg height=200 width=200></img></a>]]>
+              <![CDATA[<a target="_blank" href=Sat_Mar_14_19_46_46_IST_2020.jpg><img src=Sat_Mar_14_19_46_46_IST_2020.jpg height=200 width=200></img></a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- loginAsBankManager -->
       </class> <!-- com.w2a.testcases.BankManagerLoginTest -->
     </test> <!-- Bank Manager Login Test -->
-    <test started-at="2020-03-14T12:11:33Z" name="Add Customer Test" finished-at="2020-03-14T12:11:40Z" duration-ms="6770">
+    <test started-at="2020-03-14T14:16:46Z" name="Add Customer Test" finished-at="2020-03-14T14:16:53Z" duration-ms="6988">
       <class name="com.w2a.testcases.AddCustomerTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.w2a.testcases.AddCustomerTest@45a4b042]" started-at="2020-03-14T12:11:22Z" name="setUp" finished-at="2020-03-14T12:11:33Z" duration-ms="10650" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.w2a.testcases.AddCustomerTest@73302995]" started-at="2020-03-14T14:16:30Z" name="setUp" finished-at="2020-03-14T14:16:42Z" duration-ms="11337" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="addCustomerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.w2a.testcases.AddCustomerTest@45a4b042]" started-at="2020-03-14T12:11:33Z" name="addCustomerTest" data-provider="dp" finished-at="2020-03-14T12:11:40Z" duration-ms="6395" status="FAIL">
+        <test-method signature="addCustomerTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.w2a.testcases.AddCustomerTest@73302995]" started-at="2020-03-14T14:16:47Z" name="addCustomerTest" data-provider="dp" finished-at="2020-03-14T14:16:53Z" duration-ms="6517" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -170,7 +194,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
               <![CDATA[Click to see Screenshot]]>
             </line>
             <line>
-              <![CDATA[<a target="_blank" href=Sat_Mar_14_17_41_40_IST_2020.jpg>Screenshot</a>]]>
+              <![CDATA[<a target="_blank" href=Sat_Mar_14_19_46_53_IST_2020.jpg>Screenshot</a>]]>
             </line>
             <line>
               <![CDATA[<br>]]>
@@ -179,11 +203,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
               <![CDATA[<br>]]>
             </line>
             <line>
-              <![CDATA[<a target="_blank" href=Sat_Mar_14_17_41_40_IST_2020.jpg><img src=Sat_Mar_14_17_41_40_IST_2020.jpg height=200 width=200></img></a>]]>
+              <![CDATA[<a target="_blank" href=Sat_Mar_14_19_46_53_IST_2020.jpg><img src=Sat_Mar_14_19_46_53_IST_2020.jpg height=200 width=200></img></a>]]>
             </line>
           </reporter-output>
         </test-method> <!-- addCustomerTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.w2a.testcases.AddCustomerTest@45a4b042]" started-at="2020-03-14T12:11:40Z" name="tearDown" finished-at="2020-03-14T12:11:41Z" duration-ms="690" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.w2a.testcases.AddCustomerTest@73302995]" started-at="2020-03-14T14:16:53Z" name="tearDown" finished-at="2020-03-14T14:16:54Z" duration-ms="671" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
