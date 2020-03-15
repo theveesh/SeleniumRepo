@@ -13,7 +13,7 @@ import com.w2a.base.TestBase;
 public class BankManagerLoginTest extends TestBase{
 	
 	@Test
-	public void loginAsBankManager() throws InterruptedException, IOException {
+	public void bankManagerLoginTest() throws InterruptedException, IOException {
 		
 		verifyEquals("abc","xyz");
 		Thread.sleep(3000);
@@ -24,7 +24,7 @@ public class BankManagerLoginTest extends TestBase{
 		//Thread.sleep(5000);
 		Assert.assertTrue(isElementPresent(By.xpath(OR.getProperty("addCustBtn_XPATH"))), "Login Not successful!!!");
 		log.debug("Login successfully executed");
-		Assert.fail("Login Not Successful");
+		//Assert.fail("Login Not Successful");
 		
 	}
 }

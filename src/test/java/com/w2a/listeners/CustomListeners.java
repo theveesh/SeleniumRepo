@@ -6,6 +6,7 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 import org.testng.Reporter;
+import org.testng.SkipException;
 
 import com.relevantcodes.extentreports.LogStatus;
 import com.w2a.utilities.TestUtil;
@@ -14,6 +15,7 @@ public class CustomListeners extends TestUtil implements ITestListener{
 
 	public void onTestStart(ITestResult result) {
 		test = report.startTest(result.getName().toUpperCase());
+		
 		
 	}
 
@@ -48,7 +50,9 @@ public class CustomListeners extends TestUtil implements ITestListener{
 	}
 
 	public void onTestSkipped(ITestResult result) {
-		// TODO Auto-generated method stub
+		test.log(LogStatus.SKIP, result.getName().toUpperCase()+" Skipped the Test as the runmode is NO");
+		report.endTest(test);
+		report.flush();
 		
 	}
 
